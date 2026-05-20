@@ -1,13 +1,13 @@
 {
-  "repo": "clickhouse-agentbench-local",
-  "package": "clickhouse_agentbench_local",
-  "cli": "ch-agentbench",
-  "company": "ClickHouse",
-  "title": "ClickHouse AgentBench Local",
-  "tagline": "Offline SQL-agent safety and performance benchmark for ClickHouse MCP-style access.",
-  "problem": "AI assistants connected to analytical databases need proof they generate safe, bounded, performant ClickHouse SQL.",
-  "project": "AgentBench",
-  "plan_slug": "clickhouse",
+  "repo": "sql-agentbench-local",
+  "package": "sql_agentbench_local",
+  "cli": "sql-agentbench",
+  "company": "SQL AgentBench Local",
+  "title": "SQL AgentBench Local",
+  "tagline": "Offline SQL-agent safety and performance benchmark for analytical database access.",
+  "problem": "AI assistants connected to analytical databases need proof they generate safe, bounded, performant SQL.",
+  "project": "SQL AgentBench",
+  "plan_slug": "sql-agentbench",
   "scenario": "sql task",
   "fixture_count": 200,
   "clean_count": 50,
@@ -23,10 +23,8 @@
     "array_syntax_error",
     "ungrounded_join"
   ],
-  "wow": "A benchmark card shows the exact ClickHouse-specific SQL construct an agent used correctly or dangerously.",
+  "wow": "A benchmark card shows the exact analytical SQL construct an agent used correctly or dangerously.",
   "sources": [
-    "https://github.com/ClickHouse/mcp-clickhouse",
-    "https://clickhouse.com/",
-    "https://altinity.com/wp-content/uploads/2026/04/OAuth-in-Altinity-Builds-Making-ClickHouse-Safe-for-AI-2026-04-28.pdf"
+    "local-synthetic-fixture"
   ]
 }

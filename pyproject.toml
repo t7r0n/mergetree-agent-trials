@@ -1,7 +1,7 @@
 [project]
-name = "clickhouse-agentbench-local"
+name = "sql-agentbench-local"
 version = "0.1.0"
-description = "Offline SQL-agent safety and performance benchmark for ClickHouse MCP-style access."
+description = "Offline SQL-agent safety and performance benchmark for analytical database access."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -18,7 +18,7 @@ dev = [
 ]
 
 [project.scripts]
-ch-agentbench = "clickhouse_agentbench_local.cli:main"
+sql-agentbench = "sql_agentbench_local.cli:main"
 
 [build-system]
 requires = ["uv_build>=0.9.0,<0.10.0"]
